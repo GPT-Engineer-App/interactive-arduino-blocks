@@ -3,13 +3,12 @@ import { Box } from "@chakra-ui/react";
 
 const BlocklyToolbox = () => {
   return (
-    <Box bg="gray.100" p={4}>
-      {}
-      <Box mb={2}>Move Forward</Box>
-      <Box mb={2}>Move Backward</Box>
-      <Box mb={2}>Turn Left</Box>
-      <Box mb={2}>Turn Right</Box>
-    </Box>
+    <xml id="toolbox">
+      <block type="move_forward"></block>
+      <block type="move_backward"></block>
+      <block type="turn_left"></block>
+      <block type="turn_right"></block>
+    </xml>
   );
 };
 

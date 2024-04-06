@@ -32,14 +32,16 @@ const Index = () => {
     link.click();
   };
 
+  
+
   return (
     <Grid templateColumns="300px 1fr" gap={8} p={8}>
       <BlocklyToolbox />
       <VStack spacing={4}>
         <Box w="100%" h="500px" bg="gray.200" mb={4}>
-          {/* Blockly workspace would be injected here */}
+          {}
           <Text p={4}>Blockly Workspace Placeholder</Text>
-          {/* Custom Blockly blocks for moving in different directions would be defined and added here */}
+          {}
         </Box>
         <Button leftIcon={<FaDownload />} colorScheme="blue" onClick={handleDownloadCode}>
           Download Code
